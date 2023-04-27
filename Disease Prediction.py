@@ -34,15 +34,15 @@ def about():
 
 
 
-diabetes_model = pickle.load(open('C:/Users/Namo/Desktop/Capestone Project/Models/diabetes_model1.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model1.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/Namo/Desktop/Capestone Project/Models/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/Namo/Desktop/Capestone Project/Models/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-breastcancer_model = pickle.load(open('C:/Users/Namo/Desktop/Capestone Project/Models/breastcancer_final.sav', 'rb'))
+breastcancer_model = pickle.load(open('breastcancer_final.sav', 'rb'))
 
-lungcancer_model = pickle.load(open('C:/Users/Namo/Desktop/Capestone Project/Models/lungcancer_final.sav', 'rb'))
+lungcancer_model = pickle.load(open('lungcancer_final.sav', 'rb'))
 
 
 
